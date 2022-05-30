@@ -15,7 +15,7 @@ const MongoDBStore = require('connect-mongodb-session')(session);
 
 require('dotenv').config();
 const PORT = 5500;
-const MONGODB_URI = 'mongodb+srv://nitishramaraj:Nitish123@counsailia.wmmielx.mongodb.net/?retryWrites=true&w=majority'
+const MONGODB_URI = 'process.env.MONGODB_URI'
 
 
 const CONFIG = {
